@@ -16,5 +16,5 @@ def first_non_repeating_letter(string):
         new_string = string.lower()
         count = new_string.count(s.lower())
         if count == 1:
-            return (s)
+            return s
     return ''
